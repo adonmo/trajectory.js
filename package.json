@@ -20,7 +20,7 @@
   },
   "main": "src/trajectory.js",
   "engines": {
-    "node": "*"
+    "node": ">=10.4.0"
   },
   "bin": {
     "trajectory": "bin/trajectory.bin.js"
