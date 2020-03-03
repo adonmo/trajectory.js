@@ -2,12 +2,13 @@
   "name": "trajectory.js",
   "author": "B Krishna Chaitanya",
   "description": "Trajectory data lossy compression/serialization library based on Google's Encoded Polyline Algorithm Format. Forked from https://github.com/mapbox/polyline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/adonmo/trajectory.js.git"
   },
   "dependencies": {
+    "jsbi": "^3.1.2",
     "meow": "^6.0.1"
   },
   "devDependencies": {

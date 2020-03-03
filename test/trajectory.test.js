@@ -1,7 +1,8 @@
 'use strict';
 
 var test = require('tap').test,
-    trajectory = require('../');
+    trajectory = require('../'),
+    almostEqual = require("almost-equal")
 
 test('trajectory', function(t) {
     var example = [[38.5, -120.2, 1582482601], [40.7, -120.95, 1582482611], [43.252, -126.453, 1582482627]],
