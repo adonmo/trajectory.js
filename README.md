@@ -5,7 +5,7 @@
 A simple [google-esque polyline](https://developers.google.com/maps/documentation/utilities/polylinealgorithm) inspired
 implementation in Javascript, extended to trajectory data structure (an additional time dimension added to the GPS coordinates). Compatible with nodejs (`npm install trajectory.js` and the browser (copy `src/trajectory.js`)).
 
-Encodes/decodes into [lat, lng, unix time in seconds] tuples.
+Encodes from/decodes into `[lat, lng, unix time in seconds]` tuples.
 
 This library is heavily based on https://github.com/mapbox/polyline (In fact it is built on top of fork of it)
 
